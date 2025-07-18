@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This is a Job Portal project",
+  "main": "server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run dev",
+    "server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suhailkhan20/Job_Portal.git"
+  },
+  "author": "Suhail khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suhailkhan20/Job_Portal/issues"
+  },
+  "homepage": "https://github.com/suhailkhan20/Job_Portal#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.4",
+    "nodemon": "^3.1.10"
+  }
+}
